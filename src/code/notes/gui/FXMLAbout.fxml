@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="148.0" prefWidth="357.0" stylesheets="@/code/notes/gui/FXMLMain.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="130.0" prefWidth="339.0" spacing="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="57.0" prefWidth="208.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <image>
+                        <Image url="@/code/notes/res/icon-64.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" prefHeight="78.0" prefWidth="178.0">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <children>
+                        <Label text="Code-Notes">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label text="v 0.21">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets left="2.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </HBox>
+            <Label alignment="TOP_LEFT" prefHeight="70.0" prefWidth="339.0" text="%about_p">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="8.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
